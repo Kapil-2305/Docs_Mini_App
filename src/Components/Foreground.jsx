@@ -34,7 +34,47 @@ const Foreground = () => {
                 tagTitle: "Delete Now",
                 tagColor: "red",
             }
-        }
+        },
+        {
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+            filesize: ".7mb",
+            close: true,
+            tag: {
+                isOpen: true,
+                tagTitle: "Remove Now",
+                tagColor: "yellow",
+            }
+        },
+        {
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+            filesize: ".8mb",
+            close: true,
+            tag: {
+                isOpen: false,
+                tagTitle: "Delete Now",
+                tagColor: "red",
+            }
+        },
+        {
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+            filesize: ".3mb",
+            close: false,
+            tag: {
+                isOpen: true,
+                tagTitle: "Delete Now",
+                tagColor: "red",
+            }
+        },
+        {
+            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+            filesize: ".7mb",
+            close: true,
+            tag: {
+                isOpen: true,
+                tagTitle: "Download Now",
+                tagColor: "green",
+            }
+        },
     ]
     return (
         <div ref={ref} className='fixed top-0 left-0 z-[3] w-full h-full flex gap-10 flex-wrap p-5'>
