@@ -10,7 +10,7 @@ const Foreground = () => {
             tag: {
                 isOpen: true,
                 tagTitle: "Download Now",
-                tagColor: "green-600",
+                tagColor: "green",
             }
         },
         {
@@ -20,7 +20,7 @@ const Foreground = () => {
             tag: {
                 isOpen: true,
                 tagTitle: "Save Now",
-                tagColor: "zinc-600",
+                tagColor: "zinc",
             }
         },
         {
@@ -30,7 +30,7 @@ const Foreground = () => {
             tag: {
                 isOpen: true,
                 tagTitle: "Delete Now",
-                tagColor: "red-600",
+                tagColor: "red",
             }
         }
     ]
