@@ -5,7 +5,7 @@ const Foreground = () => {
     const data = [
         {
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-            filesize: ".4mb",
+            filesize: ".9mb",
             close: true,
             tag: {
                 isOpen: true,
