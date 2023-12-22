@@ -15,7 +15,7 @@ const Card = () => {
                     </span>
                 </div>
 
-                <div className='tag w-full h-20 bg-sky-200'>
+                <div className='tag w-full py-4 bg-sky-200'>
 
                 </div>
             </div>
