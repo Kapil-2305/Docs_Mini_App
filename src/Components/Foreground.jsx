@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import {motion} from 'framer-motion'
 
 const Foreground = () => {
     const data = [
@@ -15,12 +16,12 @@ const Foreground = () => {
         },
         {
             desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
-            filesize: ".9mb",
+            filesize: ".4mb",
             close: true,
             tag: {
                 isOpen: true,
                 tagTitle: "Save Now",
-                tagColor: "zinc",
+                tagColor: "blue",
             }
         },
         {
